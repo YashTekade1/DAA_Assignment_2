@@ -7,7 +7,7 @@ an application and implementation to demonstrate the Boyer Moore text pattern se
 
 
 ### Application
-Text labelling: Find and define a word in a given paragraph. The definition will be added in '()' beside the word.
+Text labelling: Find and define a word in a thr given text. The definition will be added in '(...)' beside the word.
 
 ## About Boyer-Moore text pattern searching algorithm
 Boyer-Moore is an algorithm for finding substrings into strings. This algorithm compares each characters of substring to find a word or the same characters into the string. When characters do not match, the search jumps to the next matching position in the pattern by the value indicated in the Bad Match Table.
