@@ -1,4 +1,4 @@
-# Give an application and implementation to demonstrate the Boyer Moore text pattern searching algorithm
+# Boyer Moore text pattern searching algorithm
 
 ## Name: Yash S. Tekade<br/> Roll No: 74<br> Section: A
 
@@ -19,7 +19,7 @@ The time taken by the Boyer-Moore Algorithm during pattern matching in the worst
 
 ## Code
 ```
-
+NO_OF_CHARS=256
 def badCharHeuristic(string, size):
  
     badChar = [-1]*NO_OF_CHARS
@@ -58,7 +58,7 @@ def search(txt, pat, mn):
  
  
 def main():
-    txt = input("Enter the paragraph: ")
+    txt = input("Enter the text: ")
     pat = input("Enter the word you want to define: ")
     mn= input("Enter the definition: ")
     txt=" "+txt+" "
@@ -71,8 +71,8 @@ if __name__ == '__main__':
 
 ## Output
 ```
-Enter the paragraph: Now is the winter of our discontent Made glorious summer by this sun of York; And all the clouds that lour'd upon our house In the deep bosom of the ocean buried. Now are our brows bound with victorious wreaths; Our bruised arms hung up for monuments; Our stern alarums changed to merry meetings, Our dreadful marches to delightful measures. Grim-visaged war hath smooth'd his wrinkled front; And now, instead of mounting barded steeds To fright the souls of fearful adversaries, He capers nimbly in a lady's chamber To the lascivious pleasing of a lute. But I, that am not shaped for sportive tricks, Nor made to court an amorous looking-glass; I, that am rudely stamp'd, and want love's majesty To strut before a wanton ambling nymph; I, that am curtail'd of this fair proportion,<br/>
-Enter the word you want to define: glorious <br/>
-Enter the definition: amazing<br/>
- Now is the winter of our discontent Made glorious(amazing) summer by this sun of York; And all the clouds that lour'd upon our house In the deep bosom of the ocean buried. Now are our brows bound with victorious wreaths; Our bruised arms hung up for monuments; Our stern alarums changed to merry meetings, Our dreadful marches to delightful measures. Grim-visaged war hath smooth'd his wrinkled front; And now, instead of mounting barded steeds To fright the souls of fearful adversaries, He capers nimbly in a lady's chamber To the lascivious pleasing of a lute. But I, that am not shaped for sportive tricks, Nor made to court an amorous looking-glass; I, that am rudely stamp'd, and want love's majesty To strut before a wanton ambling nymph; I, that am curtail'd of this fair proportion, 
+Enter the text: winter is coming
+Enter the word you want to define: winter
+Enter the definition: cold
+ winter(cold) is coming
 ```
